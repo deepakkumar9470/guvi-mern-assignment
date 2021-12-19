@@ -1,0 +1,154 @@
+/* font-family: 'Noto Sans', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family:' Open Sans','Noto Sans';
+    
+}
+
+html,body {
+    overflow-x: hidden; 
+}
+
+body{
+    height: 100vh;
+    background: #fff;
+    color: #000;
+    
+    font-family: var(--font-family);
+}
+p{
+    color: #b2bec3;
+}
+
+li{
+    list-style: none;
+}
+
+.nav-link{
+    list-style: none;
+    text-decoration: none;
+    color: #000 !important;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    margin-right: 2rem;
+    
+}
+button:hover{
+  transition: all 0.1s ease;
+  opacity: 0.8;
+}
+
+.landingpage{
+    width: 500px;
+    height: 400px;   
+    display: flex;
+    margin-top: 50px !important;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    box-shadow: -1px 1px 15px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 1px 15px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 15px -5px rgba(0,0,0,0.75);
+}
+.landingpage h1{
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links button{
+    width: 80% !important;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: #fdcb6e;
+    color: #fff !important;
+}
+.links button:first-child{
+    margin-right: 10px;
+}
+
+.profilepage{
+    width: 60%;
+    height: 450px;      
+    display: flex;
+    margin-top: 50px !important;
+    margin: 0 auto;
+    box-shadow: -1px 1px 15px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 1px 15px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 15px -5px rgba(0,0,0,0.75);   
+}
+.image_div{
+    width: 200px;
+    width: 200px;
+}
+.image_div img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 3px;
+    margin: 20px 15px;
+    cursor: pointer;
+}
+.profiletext{
+    margin: 10px 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.profiletext .name_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profilepage .name{
+    padding: 10px 15px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #57606f;
+}
+.profilepage .email{
+    font-size: 20px;
+    font-weight: 500;
+    color: #2f3542;
+}
+.profilepage .gender, .mobile, .dob{
+   
+    font-size: 16px;
+    font-weight: 500; 
+}
+
+
+/* @media screen and (max-width : 768px) {
+      body{
+          overflow-x: hidden;
+      }  
+       
+}
+
+@media screen and (max-width : 500px) {
+        body{
+            overflow-x: hidden;
+        }
+        } */
